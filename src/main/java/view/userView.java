@@ -1,13 +1,12 @@
 package view;
 
-import model.*;
+import DAO.dataDAO;
+import model.Data;
 import java.util.Scanner;
 import java.sql.SQLException;
 import java.util.List;
 import java.io.File;
 import java.io.IOException;
-
-import DAO.dataDAO;
 
 public class userView {
     private String email;
